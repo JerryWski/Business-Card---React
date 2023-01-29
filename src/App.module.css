@@ -1,10 +1,13 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   height: 868px;
   width: 550px;
-  min-height: 100vh;
   margin: 0 auto;
   background-color: #23252c;
+}
+.card {
+  width: 317px;
+  /* background-color: #fff; */
 }
