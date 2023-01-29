@@ -2,12 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  /* height: 868px; */
   width: 550px;
   margin: 0 auto;
   background-color: #23252c;
+  overflow: hidden;
 }
 .card {
   width: 317px;
-  /* background-color: #fff; */
+  
+}
+.wrapper {
+  background: #1A1B21;
+  border-radius: 0 0 10px 10px;
 }
