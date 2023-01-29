@@ -7,7 +7,7 @@ const InfoPerson = () => {
             <h1 className={styles.header}>Laura Smith</h1>
             <p className={styles.occupation}>Frontend Developer</p>
             <p className={styles.contact}>laurasmith.dev</p>
-            <button><i class="fa-solid fa-envelope"></i>Email</button>
+            <button className={styles.button}><i className="fa-solid fa-envelope"></i><span>Email</span></button>
         </div>
     )
 }
