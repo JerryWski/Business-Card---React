@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <div>
             <nav className={styles.navContainer}>
-                Logo
+                <img className={styles.image} src={require("../images/airbnb.png")} alt="airbnb-logo"/>
             </nav>
         </div>
     )
