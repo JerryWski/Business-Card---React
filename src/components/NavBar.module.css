@@ -1,0 +1,7 @@
+.navContainer {
+  width: 550px;
+  height: 70px;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}

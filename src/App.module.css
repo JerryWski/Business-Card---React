@@ -1,17 +1,7 @@
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 550px;
-  margin: 0 auto;
-  background-color: #23252c;
-  overflow: hidden;
-}
-.card {
-  width: 317px;
-  
-}
-.wrapper {
-  background: #1A1B21;
-  border-radius: 0 0 10px 10px;
+.appContainer {
+position: relative;
+width: 550px;
+height: 853px;
+background: #FFFFFF;
+border-radius: 8.95px;
 }
