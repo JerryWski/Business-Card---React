@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 176px;
+  font-size: 12px;
+}
+
+.card__person {
+  width: 100%;
+  margin-top: 49px;
+  margin-left: 37px;
+  border-radius: 9px;
+}
+.card__stats {
+  margin-top: 8px;
+  align-items: center;
+}
+.card__star {
+  width: 14px;
+  height: 14px;
+  margin-left: 36px;
+  margin-right: 2px;
+  border-radius: 0.5px;
+}
+.gray {
+  color: #918e9b;
+}
+.bold {
+  font-weight: 700;
+}
+.card__bio {
+    font-size: 11px;
+  width: 175px;
+  margin-left: 36px;
+  color: #222222;
+  margin-bottom: 30px;
+}
+
+img span {
+  padding: 2px;
+}
