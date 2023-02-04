@@ -5,7 +5,7 @@ const Card = (props) => {
     <div className={styles.card}>
       <img
         className={styles.card__person}
-        src={require("../images/sportwoman.png")}
+        src={props.img}
         alt="sport-woman"
       />
       <div className={styles.card__stats}>
@@ -14,14 +14,14 @@ const Card = (props) => {
           src={require("../images/star.png")}
           alt="star-logo"
         />
-        <span>5.0</span>
-        <span className={styles.gray}>(6) • </span>
-        <span className={styles.gray}>USA</span>
+        <span>{props.rating}</span>
+        <span className={styles.gray}>{props.reviewCountry} • </span>
+        <span className={styles.gray}>{props.country}</span>
       </div>
       <div className={styles.card__bio}>
-        <p>Life lessons with Katie Zaferes</p>
+        <p>{props.title}</p>
         <p>
-          <span className={styles.bold}>From $136</span> / person
+          <span className={styles.bold}>From ${props.price}</span> / person
         </p>
       </div>
     </div>

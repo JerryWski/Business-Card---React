@@ -6,10 +6,17 @@ import Card from "./components/Card";
 
 const App = () => {
   return (
-    <div className={styles.appContainer}>
+    <div className={styles.app_container}>
     <NavBar />
     <HeroSection />
-    <Card />
+    <Card
+    img = {require('./images/sportwoman.png')} 
+    rating = " 5.0"
+    reviewCountry = " 6"
+    country = "USA"
+    title = "Life Lessons with Katie Zaferes"
+    price = "136"
+    />
     </div>
   );
 }
