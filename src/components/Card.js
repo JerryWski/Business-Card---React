@@ -6,7 +6,7 @@ const Card = (props) => {
       <img
         className={styles.card__person}
         src={props.img}
-        alt="sport-woman"
+        alt=""
       />
       <div className={styles.card__stats}>
         <img
@@ -15,11 +15,11 @@ const Card = (props) => {
           alt="star-logo"
         />
         <span>{props.rating}</span>
-        <span className={styles.gray}>{props.reviewCountry} • </span>
-        <span className={styles.gray}>{props.country}</span>
+        <span className={styles.gray}> {props.reviewCountry} • </span>
+        <span className={styles.gray}>{props.location}</span>
       </div>
       <div className={styles.card__bio}>
-        <p>{props.title}</p>
+        <p className={styles.card_title}>{props.title}</p>
         <p>
           <span className={styles.bold}>From ${props.price}</span> / person
         </p>
