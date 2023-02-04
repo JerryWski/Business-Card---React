@@ -13,6 +13,7 @@
   text-overflow: ellipsis;
 }
 .card__person {
+  height: 55%;
   width: 100%;
   margin-top: 49px;
   margin-left: 37px;

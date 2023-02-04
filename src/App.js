@@ -16,6 +16,7 @@ const App = () => {
   const dataElements = personalData.map((data) => {
     return (
       <Card
+      key= {data.id}
         img={data.coverImg}
         rating={data.stats.rating}
         reviewCountry={data.stats.reviewCount}
