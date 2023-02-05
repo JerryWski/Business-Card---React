@@ -11,21 +11,21 @@ const Card = (props) => {
   return (
     <div className={styles.card}>
       {badgeText && <div className={styles.card_badge}>{badgeText}</div>}
-      <img className={styles.card__person} src={props.data.coverImg} alt="" />
+      <img className={styles.card__person} src={props.coverImg} alt="" />
       <div className={styles.card__stats}>
         <img
           className={styles.card__star}
           src={require("../images/star.png")}
           alt="star-logo"
         />
-        <span>{props.data.stats.rating}</span>
-        <span className={styles.gray}> ({props.data.stats.reviewCount}) • </span>
-        <span className={styles.gray}> {props.data.location}</span>
+        <span>{props.stats.rating}</span>
+        <span className={styles.gray}> ({props.stats.reviewCount}) • </span>
+        <span className={styles.gray}> {props.location}</span>
       </div>
       <div className={styles.card__bio}>
-        <p className={styles.card_title}>{props.data.title}</p>
+        <p className={styles.card_title}>{props.title}</p>
         <p>
-          <span className={styles.bold}>From ${props.data.price}</span> / person
+          <span className={styles.bold}>From ${props.price}</span> / person
         </p>
       </div>
     </div>
